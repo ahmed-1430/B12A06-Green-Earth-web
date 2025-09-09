@@ -76,7 +76,7 @@ const displayTrees = (plants) => {
   
   plants.forEach(tree => {
     treeContainer.innerHTML += `
-      <div class="card bg-base-100 shadow-sm p-3">
+      <div class="card bg-base-100 shadow-sm p-3 h-fit">
                     <div class="h-[180px] w-full bg-gray-200 rounded overflow-hidden mb-3">
                     <img src="${tree.image}" alt="${tree.name}" class="w-full h-full object-cover"/>
                     </div>
